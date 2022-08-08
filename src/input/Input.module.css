@@ -1,0 +1,27 @@
+.label {
+    position: relative;
+    width: 372px;
+    text-align: center;
+
+}
+.input {
+    height: 40px;
+    padding: 0 63px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+
+}
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid pink;
+}
+.label svg {
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    transform: translate(0,-35%);
+}
+.valid {
+    border-bottom: 1px solid pink;
+}
